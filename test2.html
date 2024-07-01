@@ -1,0 +1,1545 @@
+<html>
+ <head>
+  <script type="text/javascript" src="https://static.frogatto.com/voodoo.js">
+  </script>
+  <script type="text/javascript">
+   function get_pretty_os_name(uaData){switch(uaData.platform.name){case'macintosh':if(uaData.platform.os=='ios'){return'iOS';}else{return'Mac';}
+break;default:return'Other';}}
+function compose_full_version_string(uaData){return'Version 4 - '+get_pretty_os_name(uaData);}
+function get_os_oriented_download_url(uaData){if(uaData.platform.name&&uaData.platform.os=='ios'){return'https://itunes.apple.com/us/app/frogatto/id382015046?mt=8';}
+return'download';}
+function set_download_link(){var uaData=voodoo.ua();$('#download_version_string').html(compose_full_version_string(uaData));$('#primary_download_link').attr('href',get_os_oriented_download_url(uaData));}
+document.addEventListener("DOMContentLoaded",function(){set_download_link();},false)
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>
+   Frogatto &amp; Friends
+  </title>
+  <meta name="google-site-verification" content="0wONVvPYD2XQ2YQsOo7BtScvLyEAmtcH2dXWPnRWSOA">
+  <meta property="og:title" content="Frogatto">
+  <meta property="og:type" content="game">
+  <meta property="og:url" content="https://frogatto.com">
+  <meta property="og:image" content="https://frogatto.com/images/banner-ad-frogatto-midsize.png">
+  <meta property="og:site_name" content="Frogatto &amp; Friends">
+  <meta property="fb:app_id" content="280119222063754">
+  <link rel="stylesheet" href="https://frogatto.com/wp-content/cache/minify/968ee.css" media="all">
+  <link rel="pingback" href="https://frogatto.com/xmlrpc.php">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.4.2.min.js">
+  </script>
+  <script type="text/javascript" src="https://static.frogatto.com/lb_js/prototype.js">
+  </script>
+  <script type="text/javascript" src="https://static.frogatto.com/lb_js/scriptaculous.js?load=effects,builder">
+  </script>
+  <script type="text/javascript" src="https://static.frogatto.com/lb_js/lightbox.js">
+  </script>
+  <link rel="stylesheet" href="https://static.frogatto.com/lightbox.css" type="text/css" media="screen">
+  <meta name="robots" content="max-image-preview:large">
+  <link rel="dns-prefetch" href="//ws.sharethis.com">
+  <link rel="alternate" type="application/rss+xml" title="Frogatto &amp; Friends » Feed" href="https://frogatto.com/feed/">
+  <link rel="alternate" type="application/rss+xml" title="Frogatto &amp; Friends » Comments Feed" href="https://frogatto.com/comments/feed/">
+  <script type="text/javascript">
+   window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/frogatto.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=302b7ab64ee5ae54f119e6749af6e314"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+  </script>
+  <style type="text/css">
+   img.wp-smiley,img.emoji{display:inline !important;border:none !important;box-shadow:none !important;height:1em !important;width:1em !important;margin:0
+0.07em !important;vertical-align:-0.1em !important;background:none !important;padding:0
+!important}
+  </style>
+  <link rel="stylesheet" href="https://frogatto.com/wp-content/cache/minify/d7cb9.css" media="all">
+  <style id="global-styles-inline-css" type="text/css">
+   /*&lt;![CDATA[*/body{--wp--preset--color--black:#000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#fff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale:url(&#39;#wp-duotone-dark-grayscale&#39;);--wp--preset--duotone--grayscale:url(&#39;#wp-duotone-grayscale&#39;);--wp--preset--duotone--purple-yellow:url(&#39;#wp-duotone-purple-yellow&#39;);--wp--preset--duotone--blue-red:url(&#39;#wp-duotone-blue-red&#39;);--wp--preset--duotone--midnight:url(&#39;#wp-duotone-midnight&#39;);--wp--preset--duotone--magenta-yellow:url(&#39;#wp-duotone-magenta-yellow&#39;);--wp--preset--duotone--purple-green:url(&#39;#wp-duotone-purple-green&#39;);--wp--preset--duotone--blue-orange:url(&#39;#wp-duotone-blue-orange&#39;);--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:0.44rem;--wp--preset--spacing--30:0.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep:12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp:6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined:6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp:6px 6px 0px rgba(0, 0, 0, 1)}:where(.is-layout-flex){gap:0.5em}body .is-layout-flow&gt;.alignleft{float:left;margin-inline-start:0;margin-inline-end:2em}body .is-layout-flow&gt;.alignright{float:right;margin-inline-start:2em;margin-inline-end:0}body .is-layout-flow&gt;.aligncenter{margin-left:auto !important;margin-right:auto !important}body .is-layout-constrained&gt;.alignleft{float:left;margin-inline-start:0;margin-inline-end:2em}body .is-layout-constrained&gt;.alignright{float:right;margin-inline-start:2em;margin-inline-end:0}body .is-layout-constrained&gt;.aligncenter{margin-left:auto !important;margin-right:auto !important}body .is-layout-constrained&gt;:where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:var(--wp--style--global--content-size);margin-left:auto !important;margin-right:auto !important}body .is-layout-constrained&gt;.alignwide{max-width:var(--wp--style--global--wide-size)}body .is-layout-flex{display:flex}body .is-layout-flex{flex-wrap:wrap;align-items:center}body .is-layout-flex&gt;*{margin:0}:where(.wp-block-columns.is-layout-flex){gap:2em}.has-black-color{color:var(--wp--preset--color--black) !important}.has-cyan-bluish-gray-color{color:var(--wp--preset--color--cyan-bluish-gray) !important}.has-white-color{color:var(--wp--preset--color--white) !important}.has-pale-pink-color{color:var(--wp--preset--color--pale-pink) !important}.has-vivid-red-color{color:var(--wp--preset--color--vivid-red) !important}.has-luminous-vivid-orange-color{color:var(--wp--preset--color--luminous-vivid-orange) !important}.has-luminous-vivid-amber-color{color:var(--wp--preset--color--luminous-vivid-amber) !important}.has-light-green-cyan-color{color:var(--wp--preset--color--light-green-cyan) !important}.has-vivid-green-cyan-color{color:var(--wp--preset--color--vivid-green-cyan) !important}.has-pale-cyan-blue-color{color:var(--wp--preset--color--pale-cyan-blue) !important}.has-vivid-cyan-blue-color{color:var(--wp--preset--color--vivid-cyan-blue) !important}.has-vivid-purple-color{color:var(--wp--preset--color--vivid-purple) !important}.has-black-background-color{background-color:var(--wp--preset--color--black) !important}.has-cyan-bluish-gray-background-color{background-color:var(--wp--preset--color--cyan-bluish-gray) !important}.has-white-background-color{background-color:var(--wp--preset--color--white) !important}.has-pale-pink-background-color{background-color:var(--wp--preset--color--pale-pink) !important}.has-vivid-red-background-color{background-color:var(--wp--preset--color--vivid-red) !important}.has-luminous-vivid-orange-background-color{background-color:var(--wp--preset--color--luminous-vivid-orange) !important}.has-luminous-vivid-amber-background-color{background-color:var(--wp--preset--color--luminous-vivid-amber) !important}.has-light-green-cyan-background-color{background-color:var(--wp--preset--color--light-green-cyan) !important}.has-vivid-green-cyan-background-color{background-color:var(--wp--preset--color--vivid-green-cyan) !important}.has-pale-cyan-blue-background-color{background-color:var(--wp--preset--color--pale-cyan-blue) !important}.has-vivid-cyan-blue-background-color{background-color:var(--wp--preset--color--vivid-cyan-blue) !important}.has-vivid-purple-background-color{background-color:var(--wp--preset--color--vivid-purple) !important}.has-black-border-color{border-color:var(--wp--preset--color--black) !important}.has-cyan-bluish-gray-border-color{border-color:var(--wp--preset--color--cyan-bluish-gray) !important}.has-white-border-color{border-color:var(--wp--preset--color--white) !important}.has-pale-pink-border-color{border-color:var(--wp--preset--color--pale-pink) !important}.has-vivid-red-border-color{border-color:var(--wp--preset--color--vivid-red) !important}.has-luminous-vivid-orange-border-color{border-color:var(--wp--preset--color--luminous-vivid-orange) !important}.has-luminous-vivid-amber-border-color{border-color:var(--wp--preset--color--luminous-vivid-amber) !important}.has-light-green-cyan-border-color{border-color:var(--wp--preset--color--light-green-cyan) !important}.has-vivid-green-cyan-border-color{border-color:var(--wp--preset--color--vivid-green-cyan) !important}.has-pale-cyan-blue-border-color{border-color:var(--wp--preset--color--pale-cyan-blue) !important}.has-vivid-cyan-blue-border-color{border-color:var(--wp--preset--color--vivid-cyan-blue) !important}.has-vivid-purple-border-color{border-color:var(--wp--preset--color--vivid-purple) !important}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background:var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background:var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background:var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important}.has-cool-to-warm-spectrum-gradient-background{background:var(--wp--preset--gradient--cool-to-warm-spectrum) !important}.has-blush-light-purple-gradient-background{background:var(--wp--preset--gradient--blush-light-purple) !important}.has-blush-bordeaux-gradient-background{background:var(--wp--preset--gradient--blush-bordeaux) !important}.has-luminous-dusk-gradient-background{background:var(--wp--preset--gradient--luminous-dusk) !important}.has-pale-ocean-gradient-background{background:var(--wp--preset--gradient--pale-ocean) !important}.has-electric-grass-gradient-background{background:var(--wp--preset--gradient--electric-grass) !important}.has-midnight-gradient-background{background:var(--wp--preset--gradient--midnight) !important}.has-small-font-size{font-size:var(--wp--preset--font-size--small) !important}.has-medium-font-size{font-size:var(--wp--preset--font-size--medium) !important}.has-large-font-size{font-size:var(--wp--preset--font-size--large) !important}.has-x-large-font-size{font-size:var(--wp--preset--font-size--x-large) !important}.wp-block-navigation a:where(:not(.wp-element-button)){color:inherit}:where(.wp-block-columns.is-layout-flex){gap:2em}.wp-block-pullquote{font-size:1.5em;line-height:1.6}/*]]&gt;*/
+  </style>
+  <script id="st_insights_js" type="text/javascript" src="https://ws.sharethis.com/button/st_insights.js?publisher=eba0f3ba-f9ab-408c-bc68-c28af5afe749&amp;product=feather&amp;ver=1685815594" id="feather-sharethis-js">
+  </script>
+  <link rel="https://api.w.org/" href="https://frogatto.com/wp-json/">
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://frogatto.com/xmlrpc.php?rsd">
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://frogatto.com/wp-includes/wlwmanifest.xml">
+  <style type="text/css">
+  </style>
+  <style>
+   /*&lt;![CDATA[*/.synved-social-resolution-single{display:inline-block}.synved-social-resolution-normal{display:inline-block}.synved-social-resolution-hidef{display:none}@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 2dppx),
+only screen and (min-resolution: 192dpi){.synved-social-resolution-normal{display:none}.synved-social-resolution-hidef{display:inline-block}}/*]]&gt;*/
+  </style>
+  <style type="text/css" id="wp-custom-css">
+   pre{color:white;background-color:transparent}
+  </style>
+  <script defer="" src="https://frogatto.com/wp-content/cache/minify/abbc1.js">
+  </script>
+ </head>
+ <body class="home blog">
+  <div id="fb-root">
+  </div>
+  <script>
+  </script>
+  <script>
+  </script>
+  <h1>
+   <a href="https://frogatto.com/">
+    <img src="https://frogatto.com/wp-content/themes/frogatto-2013-march/images/logo.png" alt="Frogatto &amp; Friends">
+   </a>
+  </h1>
+  <div id="container">
+   <div id="content_top">
+    <img src="https://frogatto.com/wp-content/themes/frogatto-2013-march/images/frogatto-animated-2x.gif" id="frogatto_sprite" alt="Frogatto sprite" style="width: 68px; height: 70px; image-rendering: pixelated;">
+    <p>
+     <span style="color: white; font-weight: bold;">
+      Frogatto &amp; Friends
+     </span>
+     is an action-adventure platformer game, starring a certain quixotic frog.
+     <br>
+     We&#39;re an
+     <a href="https://github.com/frogatto/frogatto/wiki">
+      open-source community project
+     </a>
+     , and welcome contributions!
+     <br>
+     We also have a very flexible editor and engine you can use to make your own creations.
+    </p>
+    <div class="clear">
+    </div>
+   </div>
+   <div id="top_separator">
+   </div>
+   <div id="content_container">
+    <div id="nav">
+     <a href="download" id="primary_download_link">
+      <img style="position: relative; left: -10px;" src="https://frogatto.com/wp-content/themes/frogatto-2013-march/images/download_button.png" alt="Download" height="66" width="177">
+      <img style="position: absolute; left: -26px; top:110px;" src="https://frogatto.com/wp-content/themes/frogatto-2013-march/images/download_icon.png" alt="Download" height="60" width="40">
+      <span style="position: absolute; top: 144px; left: 50px; font-size:9px; text-align: center;" id="download_version_string">
+       Version 1.3
+      </span>
+     </a>
+     <a href="download">
+      <span style="position: absolute; top: 168px; left: 50px; font-size:9px; text-align: center;">
+       Other Versions
+      </span>
+     </a>
+     <h2>
+     </h2>
+     <ul>
+      <li>
+       <a href="/screenshots">
+        Screens/Video
+       </a>
+      </li>
+     </ul>
+     <h2>
+     </h2>
+     <ul>
+      <li>
+       <a href="https://github.com/frogatto/frogatto/wiki" target="_blank">
+        Developer Wiki
+       </a>
+      </li>
+     </ul>
+     <h2>
+     </h2>
+     <ul>
+      <li>
+       <a href="https://discord.gg/Uws7GYw">
+        Discord
+       </a>
+      </li>
+      <li>
+       <a href="https://twitter.com/frogatto">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a href="mailto:devteam@frogatto.com">
+        Email
+       </a>
+      </li>
+     </ul>
+     <div style="text-align:center; padding:0; padding-left:6px;">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="donate_form">
+       <input type="hidden" name="cmd" value="_s-xclick">
+       <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHLwYJKoZIhvcNAQcEoIIHIDCCBxwCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBpB1yDTfvUzHZTUWkIuZZnzx8xV2uySpcP43rk243fpkb2+Iw+RP0aoqCGj//mETuf3YuMyh8bNNFPltX4cm0lNXBbSnla1FnXTPXTXlu9kEn7lKE7jyivgjHqaeA5estYWA1pn+4FGVsSqkQffg3y4kkqP5dWdu+ZTiZ7d6LMCzELMAkGBSsOAwIaBQAwgawGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIawh8epZoLLWAgYidUO0BDvsiSXVZ/6qYSsqEJBfoX+FBXAjZv/y8ikLLNFtFRfNCQQGFqF5/kzMRX32MDvzUIx0vS8/HWfIaSHqZTyUh9iWrfpA/43yoXM5nIzWR+6YJ0XHzOXhn1Mcr6RVes3xtYtO4SfyIpF790yaDNDHuBxh6g3nDO9p26MSRwyHqoYqiVBF1oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTAwNzE1MTgyNTM1WjAjBgkqhkiG9w0BCQQxFgQU2tJtcHylo9LtiILJCkdQJRDZWJUwDQYJKoZIhvcNAQEBBQAEgYCk+gZG2Jk9AeFPyYrhD9/08unNng4r2S4fZVXZmmaGfOSU9/lK++zkrRvKDwCllAtsJYt6iyi+3O3Fb6ZneZEVmWzzgyiZOaqraskSuirNQbRjzXZHC+mmZXtzU02ASUcf7BM0NWB+PQapAihIjKU6Y0bt81wzXBHZo9geBKJQGw==-----END PKCS7-----
+		">
+       <input type="image" src="https://frogatto.com/wp-content/themes/frogatto-2012-september/images/paypal-donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="
+		padding-right: 11px;">
+       <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+     </div>
+    </div>
+    <div id="content">
+     <div class="post-1738 post type-post status-publish format-standard hentry category-uncategorized" id="post-1738">
+      <h2>
+       <a href="https://frogatto.com/2023/09/02/frogatto-is-on-steam/" rel="bookmark" title="Permanent Link to Frogatto is on Steam!">
+        Frogatto is on Steam!
+       </a>
+      </h2>
+      <small>
+       September 2nd, 2023 by Jetrel
+      </small>
+      <div class="entry">
+       <p>
+        At long last, we’re pleased to announce the release of Frogatto version 4, which is immediately
+        <a href="https://store.steampowered.com/app/865030/Frogatto__Friends/" data-type="URL" data-id="https://store.steampowered.com/app/865030/Frogatto__Friends/">
+         available on Steam
+        </a>
+        . We’d like to extend a huge thanks to all of the contributors who made this possible, and helped us through the long-haul to get this release out â€” Thank you!
+       </p>
+       <p>
+        This release features major additions to the game â€” we’ve almost doubled the total number of levels, including many new “secret levels” you can find along the way, as well as adding dozens of new enemies, three major new actbosses, and a total remaster of most of the animations in the game as well as large parts of the scenery art.
+       </p>
+       <p>
+        We’ve got an exciting roadmap of future releases planned, which we’re intending to release on a much faster cadence of “every several months”. Future plans involve enhancing a bunch of enemies to be much more cunning opponents, adding numerous puzzle elements to levels that don’t have them, and doing a major overhaul of player abilities and quest items.
+       </p>
+       <p>
+        Thanks for tagging along with us on this journey, and we hope to have lots more excitement in the time to come!
+       </p>
+       <p>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1738&amp;t=Frogatto%20is%20on%20Steam%21&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1738&amp;p[images][0]=&amp;p[title]=Frogatto%20is%20on%20Steam%21" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1738&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1738&amp;title=Frogatto%20is%20on%20Steam%21" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Frogatto%20is%20on%20Steam%21&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1738" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/mail.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1738&amp;t=Frogatto%20is%20on%20Steam%21&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1738&amp;p[images][0]=&amp;p[title]=Frogatto%20is%20on%20Steam%21" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1738&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1738&amp;title=Frogatto%20is%20on%20Steam%21" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Frogatto%20is%20on%20Steam%21&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1738" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/mail.png">
+        </a>
+       </p>
+      </div>
+      <p class="postmetadata">
+       Posted in
+       <a href="https://frogatto.com/category/uncategorized/" rel="category tag">
+        Uncategorized
+       </a>
+       |
+       <a href="https://frogatto.com/2023/09/02/frogatto-is-on-steam/#respond">
+        No Comments »
+       </a>
+      </p>
+     </div>
+     <div class="post-1696 post type-post status-publish format-standard hentry category-uncategorized" id="post-1696">
+      <h2>
+       <a href="https://frogatto.com/2020/06/24/frogatto-in-20-minutes-or-less/" rel="bookmark" title="Permanent Link to Frogatto in 20 Minutes or Less">
+        Frogatto in 20 Minutes or Less
+       </a>
+      </h2>
+      <small>
+       June 24th, 2020 by DDR
+      </small>
+      <div class="entry">
+       <p>
+        <iframe src="https://www.youtube.com/embed/LUB6GxMA5Bc?start=4" allow="encrypted-media; picture-in-picture" allowfullscreen="" width="100%" height="301" frameborder="0">
+        </iframe>
+       </p>
+       <p>
+        On 2020-06-19, UbuntuJackson laid down a very impressive speedrun, beating Frogatto in 19:36.21. Around the our virtual water-cooler, we all agreed that we were quite impressed!
+       </p>
+       <p>
+        As a developer, watching a speedrun of your own game is both humbling and inducing of a feeling of incredulousness. “How could we create this little content, yet include so many bugs?”
+       </p>
+       <p>
+        It also raises the question of what to do about the bugs. A developer of the game is both a tremendous asset and huge risk to a speedrunning community. When a run comes to the developer’s attention, critical bugs tend to get fixed and run times go up. Sometimes, the reaction of the community has been to run on early builds of the game, canonicalizing the release-day disk as the version the run is built on. (This is often a lot harder with heavily DRM’d games, as you have a much more tenuous ownership of them and can only play the most up-to-date version.) Other times, the community will shrug and move on, accepting a slower patch for stability and bifurcating the leaderboards to reflect this. With Frogatto, we are lucky in that we are a very traditional single-player game with no DRM. We do not have to patch exploits or force people on to the latest version.
+       </p>
+       <p>
+        So what about the issues UbuntuJackson has showcased for us? Some are fixed in the next release already. Some have simply gone away, as we replace older content with newer. The next version introduces two new act bosses; so we definitely don’t have to worry about keeping the times the same! So, we have to take a hand-off path; to marvel how broken our game is, and be honoured by the attention that has been paid to break it.
+       </p>
+       <p>
+        We look forward to seeing what merry havoc will be played with our next release.
+       </p>
+       <p>
+        Thank you.
+       </p>
+       <p>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1696&amp;t=Frogatto%20in%2020%20Minutes%20or%20Less&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1696&amp;p[images][0]=&amp;p[title]=Frogatto%20in%2020%20Minutes%20or%20Less" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1696&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1696&amp;title=Frogatto%20in%2020%20Minutes%20or%20Less" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Frogatto%20in%2020%20Minutes%20or%20Less&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1696" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/mail.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1696&amp;t=Frogatto%20in%2020%20Minutes%20or%20Less&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1696&amp;p[images][0]=&amp;p[title]=Frogatto%20in%2020%20Minutes%20or%20Less" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1696&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1696&amp;title=Frogatto%20in%2020%20Minutes%20or%20Less" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Frogatto%20in%2020%20Minutes%20or%20Less&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1696" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/mail.png">
+        </a>
+       </p>
+      </div>
+      <p class="postmetadata">
+       Posted in
+       <a href="https://frogatto.com/category/uncategorized/" rel="category tag">
+        Uncategorized
+       </a>
+       |
+       <a href="https://frogatto.com/2020/06/24/frogatto-in-20-minutes-or-less/#comments">
+        4 Comments »
+       </a>
+      </p>
+     </div>
+     <div class="post-1648 post type-post status-publish format-standard hentry category-uncategorized" id="post-1648">
+      <h2>
+       <a href="https://frogatto.com/2016/11/21/peep-this/" rel="bookmark" title="Permanent Link to Peep This!">
+        Peep This!
+       </a>
+      </h2>
+      <small>
+       November 21st, 2016 by Phanterm
+      </small>
+      <div class="entry">
+       <p>
+        Well lookie here, itâ€™s a brand new news update!
+       </p>
+       <p>
+        <span style="font-weight: 400;">
+         Hi folks, Hunter here. Weâ€™ve been working hard these past several months on getting the next version of Frogatto &amp; Friends finalized and ready to go. Weâ€™re not in development hell. Hell, weâ€™re not even in development purgatory. Our only excuse is that weâ€™re a small group of folks all working on this project, and updating our website with new content is more of a way for us to say â€œhi, weâ€™re not deadâ€�.
+        </span>
+       </p>
+       <p>
+        <span style="font-weight: 400;">
+         Thereâ€™s some pretty significant stuff headed your way soon as we put the finishing touches on the upcoming release. In the meantime, however, we wanted to extend an open invitation to our official
+         <a href="http://discord.gg/Uws7GYw">
+          Frogatto Discord
+         </a>
+         server! Weâ€™ve found that Itâ€™s a lovely utility for communicating both with fans and other developers. Since we keep a pretty open channel about our practices and overall development, it strikes a nice balance thatâ€™s just right for us.Â YouÂ should also check us out on
+         <a href="http://twitter.com/frogatto">
+          Twitter
+         </a>
+         for more juicyÂ updates.
+        </span>
+       </p>
+       <p>
+        <span style="font-weight: 400;">
+         So there you have it. Bottle up your formaldehyde, put away your science textbooks and stow those scalpels somewhere else, â€˜cause this frog ainâ€™t dead yet.
+        </span>
+       </p>
+       <p>
+        Hereâ€™s a preview of our lovely new boss,
+        <a href="http://imgur.com/a/5t4pZ">
+         The Iralchtahne of Essikoria
+        </a>
+        . “What?”, you’re saying. Then the Iralchtahne says nothing.
+       </p>
+       <p>
+        Because it’s just a big eye. It has no mouth.
+       </p>
+       <p>
+        <span style="font-weight: 400;">
+         Enjoy!
+        </span>
+       </p>
+       <p>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1648&amp;t=Peep%20This%21&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1648&amp;p[images][0]=&amp;p[title]=Peep%20This%21" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1648&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1648&amp;title=Peep%20This%21" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Peep%20This%21&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1648" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/mail.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1648&amp;t=Peep%20This%21&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1648&amp;p[images][0]=&amp;p[title]=Peep%20This%21" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1648&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1648&amp;title=Peep%20This%21" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Peep%20This%21&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1648" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/mail.png">
+        </a>
+       </p>
+      </div>
+      <p class="postmetadata">
+       Posted in
+       <a href="https://frogatto.com/category/uncategorized/" rel="category tag">
+        Uncategorized
+       </a>
+       |
+       <a href="https://frogatto.com/2016/11/21/peep-this/#comments">
+        72 Comments »
+       </a>
+      </p>
+     </div>
+     <div class="post-1625 post type-post status-publish format-standard hentry category-uncategorized" id="post-1625">
+      <h2>
+       <a href="https://frogatto.com/2015/11/18/progress-report/" rel="bookmark" title="Permanent Link to Progress Report">
+        Progress Report
+       </a>
+      </h2>
+      <small>
+       November 18th, 2015 by DDR
+      </small>
+      <div class="entry">
+       <p>
+        It’s been a slow month here. The only major news is that Jetrel has been working on cleaning up and polishing Frogatto’s (the eponymous main character’s) graphics. Here’s a recent example:
+        <br>
+        <a href="https://www.frogatto.com/wp-content/uploads/2015/11/rendering-frogatto-compo.png">
+         <img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1626" src="https://www.frogatto.com/wp-content/uploads/2015/11/rendering-frogatto-compo-292x300.png" alt="rendering-frogatto-compo" width="292" height="300" srcset="https://frogatto.com/wp-content/uploads/2015/11/rendering-frogatto-compo-292x300.png 292w, https://frogatto.com/wp-content/uploads/2015/11/rendering-frogatto-compo.png 311w" sizes="(max-width: 292px) 100vw, 292px">
+        </a>
+        <br>
+        The
+        <a href="https://github.com/frogatto/frogatto/commit/8d78deb1045dd3ccb1dc7af02e207fa053a347ab">
+         onion skin view on github
+        </a>
+        helps highlight the differences.
+       </p>
+       <p>
+        A huge part of this has been an ongoing effort to redo Frogatto’s core movement animations – some months earlier, he had taken on redoing our running, walking, and jumping animations, and now at long last, it was time to take on swimming (which was a lot more complicated because of the need for separate animations pointing in different directions – the others were able to get by with one mirrored animation facing to the side). This was recently finished up about a week-and-a-half ago. This is a gif showing what it looked like beforehand:
+        <br>
+        <a href="https://imgur.com/vMp5j2Y">
+         <img decoding="async" title="source: imgur.com" src="https://i.imgur.com/vMp5j2Y.gif" alt="">
+        </a>
+       </p>
+       <p>
+        And here’s an animation of what it looks like now:
+        <br>
+        <a href="https://imgur.com/Q8yrExp">
+         <img decoding="async" title="source: imgur.com" src="https://i.imgur.com/Q8yrExp.gif" alt="">
+        </a>
+       </p>
+       <p>
+        I myself have been struggling with our build system, and have been unable to build Frogatto for several weeks now. (I can’t get Frogatto to run on Ubuntu, since I’ve messed up something up dependency-wise.) Because of this, there has been no progress made on the inventory screen.
+       </p>
+       <p>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1625&amp;t=Progress%20Report&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1625&amp;p[images][0]=https%3A%2F%2Fwww.frogatto.com%2Fwp-content%2Fuploads%2F2015%2F11%2Frendering-frogatto-compo-292x300.png&amp;p[title]=Progress%20Report" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1625&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1625&amp;title=Progress%20Report" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Progress%20Report&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1625" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/mail.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1625&amp;t=Progress%20Report&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1625&amp;p[images][0]=https%3A%2F%2Fwww.frogatto.com%2Fwp-content%2Fuploads%2F2015%2F11%2Frendering-frogatto-compo-292x300.png&amp;p[title]=Progress%20Report" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1625&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1625&amp;title=Progress%20Report" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Progress%20Report&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1625" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/mail.png">
+        </a>
+       </p>
+      </div>
+      <p class="postmetadata">
+       Posted in
+       <a href="https://frogatto.com/category/uncategorized/" rel="category tag">
+        Uncategorized
+       </a>
+       |
+       <a href="https://frogatto.com/2015/11/18/progress-report/#comments">
+        3 Comments »
+       </a>
+      </p>
+     </div>
+     <div class="post-1507 post type-post status-publish format-standard hentry category-uncategorized tag-backported tag-behind-the-scenes tag-progress tag-update" id="post-1507">
+      <h2>
+       <a href="https://frogatto.com/2015/09/22/inventory-screen-progress/" rel="bookmark" title="Permanent Link to Inventory screen progress">
+        Inventory screen progress
+       </a>
+      </h2>
+      <small>
+       September 22nd, 2015 by Jetrel
+      </small>
+      <div class="entry">
+       <p>
+        (Backported from
+        <a href="http://steamcommunity.com/sharedfiles/filedetails/updates/181850301/1438758167">
+         Steam Greenlight
+        </a>
+        .)
+       </p>
+       <p>
+        With one notable exception, the last few weeks have been a lot of odds-and-ends; the less exciting bucketload of piecemeal feature completion that leads to working software. (Added a few objects, fixed some bugs, made some other objects work right, etc…)
+       </p>
+       <p>
+        The big item, though, is something we can fortunately show off here in its partly-complete state; most of the art for this is done-ish, and most of the code is a little over halfways there (the difficult parts have been broken down, but there’s still a lot of tedious busywork left to eat up time.
+       </p>
+       <p>
+        <strong>
+         We’re working on a multi-pane inventory/etc screen that pauses the game when it comes up.
+        </strong>
+        (If this doesn’t make sense, think along the lines of the 2d “zelda” titles).
+       </p>
+       <p>
+        This will be broken into multiple, modular panes – basically, we’ll be able to make the different parts of this into items you acquire in the game (for example, there will be a magic ‘automap’ you can get to see the layout of the current level – you’ll actually ‘get’ this as a quest reward, rather than having it from the get-go). Another nice side-effect of this is that if we have additional ideas in the future (or really – as we get the work done) we can slot in whole new panes as we go. We’re planning to have a bestiary that lists out all the different creatures you’ve encountered, and their different vulnerabilities/strengths.
+       </p>
+       <p>
+        Here’s a shot of what the core screen looks like:
+       </p>
+       <p>
+        <a href="https://www.frogatto.com/wp-content/uploads/2015/09/vVHzHtn.png">
+         <img decoding="async" loading="lazy" class="aligncenter wp-image-1505 size-medium" src="https://www.frogatto.com/wp-content/uploads/2015/09/vVHzHtn-300x225.png" alt="vVHzHtn" width="300" height="225" srcset="https://frogatto.com/wp-content/uploads/2015/09/vVHzHtn-300x225.png 300w, https://frogatto.com/wp-content/uploads/2015/09/vVHzHtn.png 400w" sizes="(max-width: 300px) 100vw, 300px">
+        </a>
+       </p>
+       <p>
+        And here’s what the background for the map will look like (we don’t have any of the overlay drawn on this yet).
+       </p>
+       <p>
+        <a href="https://www.frogatto.com/wp-content/uploads/2015/09/z23htXH.png">
+         <img decoding="async" loading="lazy" class="aligncenter wp-image-1506 size-medium" src="https://www.frogatto.com/wp-content/uploads/2015/09/z23htXH-300x225.png" alt="z23htXH" width="300" height="225" srcset="https://frogatto.com/wp-content/uploads/2015/09/z23htXH-300x225.png 300w, https://frogatto.com/wp-content/uploads/2015/09/z23htXH.png 400w" sizes="(max-width: 300px) 100vw, 300px">
+        </a>
+       </p>
+       <p>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1507&amp;t=Inventory%20screen%20progress&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1507&amp;p[images][0]=https%3A%2F%2Fwww.frogatto.com%2Fwp-content%2Fuploads%2F2015%2F09%2FvVHzHtn-300x225.png&amp;p[title]=Inventory%20screen%20progress" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1507&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1507&amp;title=Inventory%20screen%20progress" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Inventory%20screen%20progress&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1507" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/mail.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1507&amp;t=Inventory%20screen%20progress&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1507&amp;p[images][0]=https%3A%2F%2Fwww.frogatto.com%2Fwp-content%2Fuploads%2F2015%2F09%2FvVHzHtn-300x225.png&amp;p[title]=Inventory%20screen%20progress" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1507&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1507&amp;title=Inventory%20screen%20progress" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Inventory%20screen%20progress&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1507" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/mail.png">
+        </a>
+       </p>
+      </div>
+      <p class="postmetadata">
+       Tags:
+       <a href="https://frogatto.com/tag/backported/" rel="tag">
+        backported
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/behind-the-scenes/" rel="tag">
+        behind the scenes
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/progress/" rel="tag">
+        progress
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/update/" rel="tag">
+        update
+       </a>
+       <br>
+       Posted in
+       <a href="https://frogatto.com/category/uncategorized/" rel="category tag">
+        Uncategorized
+       </a>
+       |
+       <a href="https://frogatto.com/2015/09/22/inventory-screen-progress/#comments">
+        4 Comments »
+       </a>
+      </p>
+     </div>
+     <div class="post-1503 post type-post status-publish format-standard hentry category-uncategorized tag-backported tag-behind-the-scenes tag-progress tag-update" id="post-1503">
+      <h2>
+       <a href="https://frogatto.com/2015/09/21/the-fruits-of-july/" rel="bookmark" title="Permanent Link to The Fruits of July">
+        The Fruits of July
+       </a>
+      </h2>
+      <small>
+       September 21st, 2015 by Jetrel
+      </small>
+      <div class="entry">
+       <p>
+        (Backported from
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/updates/181850301">
+         Steam Greenlight
+        </a>
+        .)
+       </p>
+       <p>
+        <strong>
+         New enemy:
+        </strong>
+        <br>
+        We came up with this wily fellow. I spent way too much time fighting with this guy’s animations, but I’m quite happy as to how he came out.
+       </p>
+       <p>
+        <img decoding="async" loading="lazy" src="https://i.imgur.com/9rEky60.gif" width="560" height="350" class="alignleft">
+       </p>
+       <p>
+        We’ve still got a few more enemies planned for in the next release; more enemies for the swamps are definitely going to be a prime focus. This fellow gets us that much closer. ðŸ™‚
+       </p>
+       <p>
+        <strong>
+         Compound objects:
+        </strong>
+        <br>
+        The biggest thing I’ve been working on recently has been a system to do compound sprites. Compound sprites are when you use multiple sprites to create the appearance of a single, larger object – in the old days of sega/nintendo, these were just used for size, since even seemingly ‘small’ characters like mario or sonic were actually a multiple of the native square-sprite size of the machine they ran on. These days, we don’t have any meaningful size limitations on sprites, so instead we use compound sprites for positioning or animation. For example, a clock face would easily be done with one sprite for the dial, and separate sprite for the hands – the purpose being that if the clock-hand sprites are separate, you can freely rotate them, programmatically, meaning you can have a full, 360Â° of rotation without any new drawings being necessary on the artist’s part.
+       </p>
+       <p>
+        We’ve wanted to have these in the game for quite a while; technically, we’ve been able to do them since the early alpha versions of our engine (Anura), but in practice they’ve been a buggy mess. The system I’ve come up with is no holy grail (there are a number of fancy animation-scripting things that still have to be done by hand), but it’s very, very clean, and should stay fairly bug-free. One of our main goals was to have these sprites, to the player’s eye, seem like a seamless extension of the core object they were a part of. Any damage-contact applied to any part of these should act like they’re one, indivisible object; any visual effects like color-flashing should affect the entire thing, without any inter-frame delays. Chiefly, we’re also worried about orphaning these child objects – if the core enemy they’re attached to, dies, we need to have a reliable system for getting rid of them.
+       </p>
+       <p>
+        Bug-free designs are really our top priority at this point; we had some compound enemies in the past and I’ve actually ended up mothballing a few of them because it was too much work to keep them running as they broke over and over due to other changes in the game. A tough lesson I’ve learned in game-design has been to resist the siren song of new features that I can’t quite come up with a rigorous way to handle; they might not take any longer to prototype than anything else, but I can’t treat a working prototype as a “bird in the hand”. I have to treat the real cost of features as the full, lifecycle cost of all the future bugs its going to incur as it interfaces with other elements in the game. Thus, I need to focus on things that have a way lower lifecycle cost – which is usually down to ‘devil in the details’ planning of how they work. It’s less about what I do, so much as it is about holding off unless I’ve got a really clean way to do something. There are plenty of “cool 2d platformer tropes” we’re leaving on the shelf unless they can meet this requirement, but the result is we’ll actually ship the damn game, so it’s a small price to pay.
+       </p>
+       <p>
+        As for the new compound-object system; there are several specific things that finally made it viable. Most of it had to do with some major, structural improvements to our “hittable” class (a long, ongoing project over the last year or so). Most of these have been down to a transition away from a type/recipient-blind “event-driven” system, and instead moving to a pure-functional, strict typed means of triggering behavior. A lot of this has been enabled by some huge upgrades to Anura’s scripting language, making it strictly typed – most especially with regards to non-null containers, and object access – we now can have hard, static-analysis guarantees that if we’re operating on some set of links to other objects (like, say, compound object parts) that we’re guaranteed to be pointing at a real, object, and not something that had been deallocated earlier. A big benefit here is that our hittable code has a very limited set of entry points; we’ve got one place where hit-triggering behavior gets captured, and this can safely redirect calls for being hit to a parent object (and thus make sure the full suite of damage-receiving code gets triggered correctly).
+       </p>
+       <p>
+        Hopefully this will bulletproof the few enemies we have based on compound objects, and let us gradually ease into doing more in the future.
+       </p>
+       <p>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1503&amp;t=The%20Fruits%20of%20July&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1503&amp;p[images][0]=https%3A%2F%2Fi.imgur.com%2F9rEky60.gif&amp;p[title]=The%20Fruits%20of%20July" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1503&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1503&amp;title=The%20Fruits%20of%20July" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=The%20Fruits%20of%20July&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1503" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/mail.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1503&amp;t=The%20Fruits%20of%20July&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1503&amp;p[images][0]=https%3A%2F%2Fi.imgur.com%2F9rEky60.gif&amp;p[title]=The%20Fruits%20of%20July" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1503&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1503&amp;title=The%20Fruits%20of%20July" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=The%20Fruits%20of%20July&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1503" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/mail.png">
+        </a>
+       </p>
+      </div>
+      <p class="postmetadata">
+       Tags:
+       <a href="https://frogatto.com/tag/backported/" rel="tag">
+        backported
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/behind-the-scenes/" rel="tag">
+        behind the scenes
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/progress/" rel="tag">
+        progress
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/update/" rel="tag">
+        update
+       </a>
+       <br>
+       Posted in
+       <a href="https://frogatto.com/category/uncategorized/" rel="category tag">
+        Uncategorized
+       </a>
+       |
+       <a href="https://frogatto.com/2015/09/21/the-fruits-of-july/#respond">
+        No Comments »
+       </a>
+      </p>
+     </div>
+     <div class="post-1499 post type-post status-publish format-standard hentry category-uncategorized tag-backported tag-behind-the-scenes tag-progress tag-update" id="post-1499">
+      <h2>
+       <a href="https://frogatto.com/2015/09/21/1499/" rel="bookmark" title="Permanent Link to Content Updates">
+        Content Updates
+       </a>
+      </h2>
+      <small>
+       September 21st, 2015 by Jetrel
+      </small>
+      <div class="entry">
+       <p>
+        We’ve been making some update posts over on our steam greenlight page for a while now, without cross-posting them here.  I’m going to start backporting a few of them to here, and try to keep up with consistently cross-posting them in the future.
+       </p>
+       <p>
+        <strong>
+         New flight animations:
+        </strong>
+        <br>
+        A long-running project we’ve had going has been upgrading the animations on all of our older monsters.  New monsters we’ve been making from scratch have high frame counts from the get-go; we had several older creatures which didn’t  (In the pending release, we’ve just about doubled the number of creatures in the game).
+       </p>
+       <p>
+        Like a lot of indie game projects, frogatto has been one of those where we’ve been “learning as we go” – our older art was cheaper because my skillset was a lot weaker when I made it.  Two of the points of cheapness were that most of the animations had a very low frame-count (about 3 or 4 frames for most “cyclical” animations like walking and flapping), and most of the old monsters were “clones” of each other – they were a similar base body design, recolored, with a few cosmetic bits tweaked to make them look “different enough” whilst allowing most of the animations to be copy-pasteable (with similar recoloring tricks, etc).
+       </p>
+       <p>
+        The problem with cloning like that is it becomes noticeable after a while – do it too much and even the less aesthetically-inclined players start to notice and it cheapens the experience.  Fortunately there were few enough of them that I don’t think we need to actually rip them out – instead, we just needed to draw a line in the sand and say “let’s make sure all of the new ones we add are brand-new designs”.  The upside of keeping these existing ones is that if I upgrade one of the core animations for them (like the ant walk cycle, or the flying-ant flap cycle), I can copy over the improvements to all of the other clones and get a lot of bang for the buck – get dramatically better animations on a bunch of creatures for fairly little effort.
+       </p>
+       <p>
+        So in the last few weeks, I took the flying ant’s core animation and applied it to about 4 other creatures which are seen in the seaside chapter of the game, and a couple creatures seen in the cave chapter of the game.
+       </p>
+       <p>
+        This post has a comparison of our older flap animations against the new ones:
+        <br>
+        http://steamcommunity.com/sharedfiles/filedetails/updates/181850301/1427435374
+       </p>
+       <p>
+        <strong>
+         New miniboss fights:
+        </strong>
+        <br>
+        I don’t want to give any story spoilers on this, so forgive me if this sounds a bit analytical and antiseptic…
+       </p>
+       <p>
+        If you’re familiar with the earlier releases of the game, we’ve got one lonely miniboss fight – one stage where you’re locked in a room and have to fight against 4 regular “kitty” enemies.  In that particular fight’s case, it’s a fairly easy battle used to introduce one of the main enemy types in the game, and force the player to familiarize themselves with how the enemies work.  We’re going to be adding something like 5 or 6 more such fights in the coming release.
+       </p>
+       <p>
+        I like these because by putting a simple twist on how a creature is presented in its environment, an existing monster’s challenge-factor can be radically changed (A metaphor I frequently use to explain this is that a sniper in the middle of an empty parking lot is a lot less dangerous than a sniper in a cluttered urban setting).  Not only is it good for mixing things up gameplaywise, it’s also good for forcing the player to learn-by-doing, and it’s great for narrative cycles; for adding climax and surprise to different chapters of the game.  It’s a shame we haven’t done this before; a number of sections we’ve had in the game prior have been completely devoid of boss-fights, and it really made them feel flat.  This, as well as the two new actbosses we’ve finished are really going to help spice things up.
+       </p>
+       <p>
+        So far we’ve got two of these two miniboss fights mostly done, and we’re got a third one well on its way.
+       </p>
+       <p>
+        <strong>
+         Seaside level enhancements:
+        </strong>
+        <br>
+        Some of the earlier seaside levels date back to the beta of the game – they’ve been reskinned as we’ve redone our graphics, but their basic layout remains the game – especially in the flaw of being a pretty straight-shot linear run from left to right.
+       </p>
+       <p>
+        I’ve gone over a couple of them (the levels “Splash Hop”, and “Burn and Bubble”) and added some major puzzles to them (where there were no puzzles, before), and I’ve greatly increased the size of them, vertically, adding additional paths you can take through the level, each with its own unique challenges.  I’m also in the process of re-adding a great old level we used to have called “Stonepipe Flats” which was made during the beta and got dropped for no really good reason other than me being too lazy to reskin it after one of the big graphical makeovers.  It’s high time it had a moment in the spotlight, since it’s a fairly nice level with a few good puzzles on it.
+       </p>
+       <p>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1499&amp;t=Content%20Updates&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1499&amp;p[images][0]=&amp;p[title]=Content%20Updates" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1499&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1499&amp;title=Content%20Updates" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Content%20Updates&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1499" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/mail.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1499&amp;t=Content%20Updates&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1499&amp;p[images][0]=&amp;p[title]=Content%20Updates" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1499&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1499&amp;title=Content%20Updates" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Content%20Updates&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1499" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/mail.png">
+        </a>
+       </p>
+      </div>
+      <p class="postmetadata">
+       Tags:
+       <a href="https://frogatto.com/tag/backported/" rel="tag">
+        backported
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/behind-the-scenes/" rel="tag">
+        behind the scenes
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/progress/" rel="tag">
+        progress
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/update/" rel="tag">
+        update
+       </a>
+       <br>
+       Posted in
+       <a href="https://frogatto.com/category/uncategorized/" rel="category tag">
+        Uncategorized
+       </a>
+       |
+       <a href="https://frogatto.com/2015/09/21/1499/#comments">
+        1 Comment »
+       </a>
+      </p>
+     </div>
+     <div class="post-1424 post type-post status-publish format-standard hentry category-uncategorized" id="post-1424">
+      <h2>
+       <a href="https://frogatto.com/2015/08/23/the-tower-57-post/" rel="bookmark" title="Permanent Link to The Tower 57 Post">
+        The Tower 57 Post
+       </a>
+      </h2>
+      <small>
+       August 23rd, 2015 by DDR
+      </small>
+      <div class="entry">
+       <p>
+        Today, we have a shout-out to Tower 57, whose
+        <a href="https://www.kickstarter.com/projects/514621648/tower-57/description">
+         kickstarter badly needs your support
+        </a>
+        with roughly a week left. They’re close to meeting their goal, but your individual support could mean the difference between success and failure for their campaign. Get out there and pledge!
+       </p>
+       <p>
+        <a href="https://www.kickstarter.com/projects/514621648/tower-57/description">
+         <img decoding="async" loading="lazy" class="aligncenter" src="https://orig04.deviantart.net/752a/f/2014/357/0/2/tower_57___logo_by_cyangmou-d8aexp1.png" alt="Tower 57!" width="344" height="340">
+        </a>
+       </p>
+       <p>
+        1920s art deco. Dystopian future. Destructible scenery. Tower 57 is a twin-stick shooter where you go on an espionage mission to a rival tower, trying to keep them from declaring war on you.
+       </p>
+       <p>
+        Here are some pictures of it:
+       </p>
+       <p>
+       </p>
+       <div style="width: 490px" class="wp-caption alignnone">
+        <img decoding="async" loading="lazy" class="" src="https://orig13.deviantart.net/07f7/f/2015/201/f/9/tower_57___grutin_inc_by_cyangmou-d922g4m.png" alt="Grutin, incorporated, has a great art deco meets blue cybernetic look to it." width="480" height="270">
+        <p class="wp-caption-text">
+         The factory. Something fishy here.
+        </p>
+       </div>
+       <p>
+       </p>
+       <p>
+       </p>
+       <div style="width: 330px" class="wp-caption alignnone">
+        <a href="https://www.kickstarter.com/projects/514621648/tower-57/posts/1328854">
+         <img decoding="async" loading="lazy" class="" src="https://ksr-ugc.imgix.net/assets/004/344/395/efb6cbf876ba4e895df15418052eef4d_original.png?v=1440008607&amp;w=639&amp;fit=max&amp;auto=format&amp;lossless=true&amp;s=41e816abdb6b77895745a3bed8c9a94b" alt="Tower 57 has 6 playable characters." width="320" height="205">
+        </a>
+        <p class="wp-caption-text">
+         Playable characters.
+        </p>
+       </div>
+       <p>
+       </p>
+       <p>
+       </p>
+       <div style="width: 570px" class="wp-caption alignnone">
+        <img decoding="async" loading="lazy" class="" src="https://media.indiedb.com/images/games/1/29/28416/gif1.1.gif" alt="A gentleman and his flamethrower. They light a turret on fire, and use it&#39;s now-fiery bullets to take out a bunch of smaller enemies." width="560" height="320">
+        <p class="wp-caption-text">
+         “Smart Combat”
+        </p>
+       </div>
+       <p>
+       </p>
+       <p>
+        The art is all by Cyangmou, who has an active deviantart profile at
+        <a href="https://cyangmou.deviantart.com">
+         https://cyangmou.deviantart.com
+        </a>
+        . The kickstarter is at
+        <a href="https://www.kickstarter.com/projects/514621648/tower-57">
+         https://www.kickstarter.com/projects/514621648/tower-57
+        </a>
+        .
+       </p>
+       <p>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1424&amp;t=The%20Tower%2057%20Post&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1424&amp;p[images][0]=https%3A%2F%2Forig04.deviantart.net%2F752a%2Ff%2F2014%2F357%2F0%2F2%2Ftower_57___logo_by_cyangmou-d8aexp1.png&amp;p[title]=The%20Tower%2057%20Post" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1424&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1424&amp;title=The%20Tower%2057%20Post" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=The%20Tower%2057%20Post&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1424" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/mail.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1424&amp;t=The%20Tower%2057%20Post&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1424&amp;p[images][0]=https%3A%2F%2Forig04.deviantart.net%2F752a%2Ff%2F2014%2F357%2F0%2F2%2Ftower_57___logo_by_cyangmou-d8aexp1.png&amp;p[title]=The%20Tower%2057%20Post" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1424&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1424&amp;title=The%20Tower%2057%20Post" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=The%20Tower%2057%20Post&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1424" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/mail.png">
+        </a>
+       </p>
+      </div>
+      <p class="postmetadata">
+       Posted in
+       <a href="https://frogatto.com/category/uncategorized/" rel="category tag">
+        Uncategorized
+       </a>
+       |
+       <a href="https://frogatto.com/2015/08/23/the-tower-57-post/#comments">
+        7 Comments »
+       </a>
+      </p>
+     </div>
+     <div class="post-1411 post type-post status-publish format-standard hentry category-uncategorized" id="post-1411">
+      <h2>
+       <a href="https://frogatto.com/2014/10/02/frogress-report/" rel="bookmark" title="Permanent Link to Frogress Report">
+        Frogress Report
+       </a>
+      </h2>
+      <small>
+       October 2nd, 2014 by Jetrel
+      </small>
+      <div class="entry">
+       <p>
+        Work is continuing apace on the next release (version 4) of the game.  The two new actbosses for the forest are in place, and we’ve done a bunch of heavy lifting on level (and monster) design for the new forest levels.
+       </p>
+       <p>
+        We’re working on integrating the new ability system into a much better HUD than we’ve had before – namely, one with an inventory screen (along the lines of, say, 2d zelda games) so you have some idea of which items you’ve acquired, and which will open up some new possibilities for interaction (for example, there was no way under our current setup to have consumable items).
+       </p>
+       <p>
+        The majority of our work from here on out is polish – we’re trying to re-connect a lot of our levels and allow lots of areas to be present which you can only reach by returning to a place later, with some ability acquired later in the game.  There’s going to be a lot of work to this; the main thrust behind this is basically to transform us from a straight-through linear platformer, to what’s commonly called a “metroidvania”  (a game with the non-linear player progression of something like Super Metroid, Castlevania: SotN, or Zelda: LttP).  That’s not a simple job.
+       </p>
+       <p>
+        We’ve also been revising frogatto’s own animations, to make his motion much smoother and fluid; we’ve already done this to the walking, standing, and jumping, and we’re hoping to have a go at swimming, before too long.  Our hope with the swimming is to keep the controls as they are now (which are fairly satisfactory), but to make the graphics much, much more fluid.  This will also pave the way to allow us to add attack modes for the player’s alternate powers underwater.
+       </p>
+       <p>
+        We don’t have much heavy-lifting left for the graphics.  The remaining items are:  I have some stand-alone mushroom props I need to draw, I have a few forest-tree trunk segments I want to add to flesh out the flexibility of our tree props, and I need to redraw a few more seaside houses before the next release.
+       </p>
+       <p>
+        I estimate it’s going to be several months before the next release – we’re all doing this part-time, and most likely the level-design work is going to take quite a while.  If you’d like to stay posted on things as they happen; follow our twitter @frogatto, or keep an eye on the recent commits to our github (we tend to make changes on a daily basis).
+       </p>
+       <p>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1411&amp;t=Frogress%20Report&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1411&amp;p[images][0]=&amp;p[title]=Frogress%20Report" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1411&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1411&amp;title=Frogress%20Report" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Frogress%20Report&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1411" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/mail.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1411&amp;t=Frogress%20Report&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1411&amp;p[images][0]=&amp;p[title]=Frogress%20Report" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1411&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1411&amp;title=Frogress%20Report" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Frogress%20Report&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1411" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/mail.png">
+        </a>
+       </p>
+      </div>
+      <p class="postmetadata">
+       Posted in
+       <a href="https://frogatto.com/category/uncategorized/" rel="category tag">
+        Uncategorized
+       </a>
+       |
+       <a href="https://frogatto.com/2014/10/02/frogress-report/#respond">
+        No Comments »
+       </a>
+      </p>
+     </div>
+     <div class="post-1394 post type-post status-publish format-standard hentry category-uncategorized tag-behind-the-scenes tag-belching tag-bfxr tag-cube-trains tag-foley tag-sound" id="post-1394">
+      <h2>
+       <a href="https://frogatto.com/2014/05/16/foley-for-frogatto/" rel="bookmark" title="Permanent Link to Foley for Frogatto">
+        Foley for Frogatto
+       </a>
+      </h2>
+      <small>
+       May 16th, 2014 by Action Jack
+      </small>
+      <div class="entry">
+       <p>
+        Hello!Â  My name’s Adam, and I’ve been doing sound effects for Frogatto.Â  About 90% of the sound effects currently being used are fresh recordings by me (the rest are made with
+        <a title="bfxr" href="http://www.bfxr.net/">
+         bfxr
+        </a>
+        ; it’s a lovely program and a quick, easy and free way to get classic “video-gamey” sounds).Â  This is the first time I’ve done sound for a video game, and since the process has been absolutely fascinating for me I thought I’d share a little bit about what I’ve learned.Â  I’ll have a video at the bottom showing whatever specific sounds I mention here.
+       </p>
+       <p>
+        I fancy myself a budding foley artist.Â  And since telling people that usually raises more questions than it answers, “foley artist” is a term originally applied to movies for somebody who records sound effects that weren’t picked up by the camera.Â  However, since then the term has been extended to other media as well, so I use it to distinguish the fact that I create my own sound effects rather than pull them out of a library.Â  Most projects do a mix of both, but I’ve been challenging myself to get as many sounds as possible with foley to expand my range.
+       </p>
+       <p>
+        Foley for a video game is a completely different set of challenges from foley for a movie (or at least in this case; I imagine it would be closer if Frogatto had more cutscenes).Â  The majority of what movie foley artists do is footsteps.Â  They put on the pair of shoes they own that most closely matches what the character is wearing (I’ve had a hell of a time looking for a pair of heels that fits my size-thirteen feet) and watch the footage, walking in sync and timing their movements to match the actors’.Â  Not only does their rhythm need to be perfect, but since they have a microphone pointing at their feet they have to walk in place and still make it sound natural.
+       </p>
+       <p>
+        I don’t have to worry about any of that.Â  It’s impossible for every footstep in a video game to make a unique sound, because any given character will take an infinite number of steps.Â  So I just supplied about ten footstep sounds for each of Frogatto’s different podiatric movements (walking, running, jumping, and skidding) on each of the surfaces we have in the game.Â  And I didn’t have to worry about my timing, because the game just picks one sound from my collection at random every time Frogatto hits the frame of animation where his foot hits the ground.Â  So all I had to do was pick my favorites, crop them, and upload them.Â  Footsteps are the bulk of the job for a movie, but for Frogatto they only took a few hours.Â  It took me longer than that to clean up all the scattered bits of confetti that stuck to my feet and tracked all around my apartment after I used them for shrubbery; I was still finding pieces when I moved out.
+       </p>
+       <p>
+        But even though this project has allowed me to bypass what appears to be the toughest part of foley work, I’ve faced plenty of hurdles that aren’t an issue for movies.Â  Most of them deal with the unpredictable flow of action; while a sound well-chosen, well-edited and well-timed in a movie will be great every time you watch it, events in a video game unfold a little differently for each player.Â  I have to make sure my sounds meet the needs of the game under every circumstance.
+       </p>
+       <p>
+        Most importantly, I have to be mindful of which sounds will be heard repeatedly and make sure they won’t be annoying or overbearing.Â  Something that sounds cool once isn’t necessarily going to hold up over time.Â  I contributed a few sounds toÂ
+        <a title="Cube Trains" href="http://ddr0.github.io/cube%20trains/index.html">
+         Cube Trains
+        </a>
+        .Â  One of our programmers’ other side projects, as well as a beautiful demonstration of the flexibility of the Frogatto engine, Cube Trains is a puzzle game where you build a track to get trains from one side of a map to another.Â  The creator initially wanted me to do some big metal clang sounds for the laying of the track, but we agreed that since the player is laying track with every click of the mouse, those would grow tiresome rather quickly.Â  So we scrapped the clang and went with more of a clink; to get a nice snappy metal resonance without a lot of reverberation, I wound up hitting my microphone stand with a slap bracelet.Â  The nineties will never die.
+       </p>
+       <p>
+        Sometimes, I find myself needing to deliver sounds in such small pieces that I have no idea what they’ll sound like until they’re in the game.Â  In our next release, you’ll notice that we’ve diversified the death animations of our enemies.Â  As a result, many animal-type enemies now die by bursting into a flurry of bones.Â  Jetrel’s inspiration was a similar effect from Secret of Mana for the SNES, but whereas Secret of Mana’s enemies skeletonized with a single self-contained animation, ours do so by turning into a bunch of individual and separate bones that bounce several times along the ground.Â  Secret of Mana had one “bones-rattling” sound synched up to the animation, but I couldn’t do that because our animation’s timing is always different depending on the terrain.Â  So I did about ten takes of flicking my fingernail against the bottom of one of those plastic ramekins a restaurant gives you when you take sauce to go, and had the game play one at random every time a bone bounced.Â  Alone, they don’t sound like much, but in practice they make a nice little macabre symphony.
+       </p>
+       <p>
+        And while the coding makes it easier to sync audio with specific actions, it can also throw me some curveballs.Â  I feel quite blessed that even with zero programming background Frogatto Formula Language has been extremely accessible.Â  If I want to, say, add a sound for an enemy shooting something, I’ll just go into the enemy’s data and search for the command that creates the projectile and I can add a command to make the sound happen simultaneously, guaranteeing it will by synched each and every time.Â  However, as I assume is the case with any programming language, FFL will follow the letter of what I say and ignore the spirit.Â  For example, I made a sound play every time a particular enemy was injured.Â  Most of the time it sounded fine, but Frogatto also gets an acid attack that rapidly scores damage over the course of a few seconds.Â  If this enemy was caught in a patch of acid, the game would play my sound every time damage was sustained, which was
+        <strong>
+         all of the times
+        </strong>
+        .Â  So we had to put in an extra condition dictating that every time the enemy was damaged, it would check whether the sound had played within the last few seconds and decide accordingly whether to play the sound.
+       </p>
+       <p>
+        But implementation aside, this has mostly been a surprisingly simple process for me.Â  There isn’t much high concept here; I just picture what any given action would sound like and try to make that sound with whatever I’ve got on hand.Â  Frogatto grabs onto a wall?Â  Slap my hands against things.Â  Frogatto spits acid?Â  Pour some champagne and record it bubbling in the glass (as for the sound of expelling acid from one’s stomach… let’s just say I’m glad I can belch on command).
+       </p>
+       <p>
+        On the other hand, sometimes I need to make a sound for something that doesn’t exist in the real world and I’m shooting more for a “feel” than a re-creation.Â  Our forest area has giant spiders that crawl around on the ceiling and try to pounce you when you walk under them.Â  My microphone isn’t going to be picking up any sounds made by a spider anytime soon, so I was just looking for something sudden and startling.Â  I made the sound by scratching my fingers across a duffel bag, and topped it off with a little “spider chatter” by rapidly repeating the sound of two eggs clicking together.Â  We also have some synthetic plasticky golem-type enemies who pop when they die.Â  Since I didn’t have any plastic golems handy to smash, I made this sound by throwing handfuls of flour against an empty bathtub.
+       </p>
+       <p>
+        Other times, the real sound just isn’t as pleasing as it could be.Â  Our last area has spike traps that shoot out from the ground and retract.Â  At first, I tried to make a mechanical release sound, but it just didn’t do them justice.Â  So I made a few of those lovely
+        <a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/AudibleSharpness">
+         *SHING!*
+        </a>
+        sounds by scraping a hinge across the edge of a glass table.Â  I can’t imagine real spikes ever making a noise like that, but who’s going to complain?Â  If you have first-hand experience with spike traps, either your real life is way too cool for you to have any interest in video games or you’re some creepy baron in a dank castle and you probably don’t have internet access.
+       </p>
+       <p>
+        Here are some demonstrations of the specific sounds I mentioned:
+       </p>
+       <p>
+        <iframe loading="lazy" src="https://www.youtube.com/embed/xjtXrJIckNw?feature=oembed" width="500" height="375" frameborder="0" allowfullscreen="allowfullscreen">
+        </iframe>
+       </p>
+       <p>
+        So that about sums it up for my adventures in videogame foley.Â  If anyone needs me, I’ll be over here spanking an empty bottle of apple juice with a sock filled with BB’s.
+       </p>
+       <p>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1394&amp;t=Foley%20for%20Frogatto&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1394&amp;p[images][0]=&amp;p[title]=Foley%20for%20Frogatto" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1394&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1394&amp;title=Foley%20for%20Frogatto" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-normal synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Foley%20for%20Frogatto&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1394" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/24x24/mail.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1394&amp;t=Foley%20for%20Frogatto&amp;s=100&amp;p[url]=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1394&amp;p[images][0]=&amp;p[title]=Foley%20for%20Frogatto" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/facebook.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1394&amp;text=Hey%20check%20this%20out" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/twitter.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-reddit nolightbox" data-provider="reddit" target="_blank" rel="nofollow" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1394&amp;title=Foley%20for%20Frogatto" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px;margin-right:5px">
+         <img alt="reddit" title="Share on Reddit" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/reddit.png">
+        </a>
+        <a class="synved-social-button synved-social-button-share synved-social-size-24 synved-social-resolution-hidef synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Foley%20for%20Frogatto&amp;body=Hey%20check%20this%20out:%20https%3A%2F%2Ffrogatto.com%2F%3Fp%3D1394" style="font-size: 0px;width:24px;height:24px;margin:0;margin-bottom:5px">
+         <img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="24" height="24" style="display: inline;width:24px;height:24px;margin: 0;padding: 0;border: none" src="https://frogatto.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/48x48/mail.png">
+        </a>
+       </p>
+      </div>
+      <p class="postmetadata">
+       Tags:
+       <a href="https://frogatto.com/tag/behind-the-scenes/" rel="tag">
+        behind the scenes
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/belching/" rel="tag">
+        belching
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/bfxr/" rel="tag">
+        bfxr
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/cube-trains/" rel="tag">
+        cube trains
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/foley/" rel="tag">
+        foley
+       </a>
+       ,
+       <a href="https://frogatto.com/tag/sound/" rel="tag">
+        sound
+       </a>
+       <br>
+       Posted in
+       <a href="https://frogatto.com/category/uncategorized/" rel="category tag">
+        Uncategorized
+       </a>
+       |
+       <a href="https://frogatto.com/2014/05/16/foley-for-frogatto/#comments">
+        47 Comments »
+       </a>
+      </p>
+     </div>
+     <div class="navigation">
+      <div class="alignleft">
+       <a href="https://frogatto.com/page/2/">
+        « Older Entries
+       </a>
+      </div>
+      <div class="alignright">
+      </div>
+     </div>
+    </div>
+    <div id="sidebar">
+     <ul>
+      <li id="recent-posts-3" class="widget widget_recent_entries">
+       <h2 class="widgettitle">
+        Recent Posts
+       </h2>
+       <ul>
+        <li>
+         <a href="https://frogatto.com/2023/09/02/frogatto-is-on-steam/">
+          Frogatto is on Steam!
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2020/06/24/frogatto-in-20-minutes-or-less/">
+          Frogatto in 20 Minutes or Less
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2016/11/21/peep-this/">
+          Peep This!
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2015/11/18/progress-report/">
+          Progress Report
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2015/09/22/inventory-screen-progress/">
+          Inventory screen progress
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2015/09/21/the-fruits-of-july/">
+          The Fruits of July
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2015/09/21/1499/">
+          Content Updates
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2015/08/23/the-tower-57-post/">
+          The Tower 57 Post
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2014/10/02/frogress-report/">
+          Frogress Report
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2014/05/16/foley-for-frogatto/">
+          Foley for Frogatto
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2014/04/15/some-things-coming-in-the-next-release/">
+          Some things coming in the next release
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2013/12/07/success/">
+          Success!
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2013/09/29/vote-for-frogatto-friends-on-steam-greenlight/">
+          Vote for Frogatto &amp; Friends on Steam Greenlight!
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2013/08/11/legend-of-iya-kickstarter-in-final-stage-needs-your-help/">
+          Legend of Iya Kickstarter in final stage – needs your help!
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/2013/06/19/a-response-to-gaslamp-games-the-colors-of-frogatto/">
+          A response to Gaslamp Games’ “The Colors of Frogatto”
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li id="archives-3" class="widget widget_archive">
+       <h2 class="widgettitle">
+        Archives
+       </h2>
+       <ul>
+        <li>
+         <a href="https://frogatto.com/2023/09/">
+          September 2023
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2020/06/">
+          June 2020
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2016/11/">
+          November 2016
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2015/11/">
+          November 2015
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2015/09/">
+          September 2015
+         </a>
+         (3)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2015/08/">
+          August 2015
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2014/10/">
+          October 2014
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2014/05/">
+          May 2014
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2014/04/">
+          April 2014
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2013/12/">
+          December 2013
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2013/09/">
+          September 2013
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2013/08/">
+          August 2013
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2013/06/">
+          June 2013
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2013/05/">
+          May 2013
+         </a>
+         (3)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2013/01/">
+          January 2013
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2012/12/">
+          December 2012
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2012/11/">
+          November 2012
+         </a>
+         (2)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2012/10/">
+          October 2012
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2012/09/">
+          September 2012
+         </a>
+         (2)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2012/08/">
+          August 2012
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2012/07/">
+          July 2012
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2012/06/">
+          June 2012
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2012/05/">
+          May 2012
+         </a>
+         (5)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2012/04/">
+          April 2012
+         </a>
+         (5)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2012/03/">
+          March 2012
+         </a>
+         (4)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2012/02/">
+          February 2012
+         </a>
+         (2)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2012/01/">
+          January 2012
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2011/12/">
+          December 2011
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2011/11/">
+          November 2011
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2011/09/">
+          September 2011
+         </a>
+         (2)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2011/08/">
+          August 2011
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2011/07/">
+          July 2011
+         </a>
+         (3)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2011/06/">
+          June 2011
+         </a>
+         (3)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2011/05/">
+          May 2011
+         </a>
+         (3)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2011/04/">
+          April 2011
+         </a>
+         (3)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2011/03/">
+          March 2011
+         </a>
+         (3)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2011/02/">
+          February 2011
+         </a>
+         (2)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2010/11/">
+          November 2010
+         </a>
+         (1)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2010/10/">
+          October 2010
+         </a>
+         (5)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2010/09/">
+          September 2010
+         </a>
+         (2)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2010/08/">
+          August 2010
+         </a>
+         (5)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2010/07/">
+          July 2010
+         </a>
+         (7)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2010/06/">
+          June 2010
+         </a>
+         (2)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2010/04/">
+          April 2010
+         </a>
+         (5)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2010/03/">
+          March 2010
+         </a>
+         (2)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2010/02/">
+          February 2010
+         </a>
+         (4)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2010/01/">
+          January 2010
+         </a>
+         (3)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2009/12/">
+          December 2009
+         </a>
+         (3)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2009/11/">
+          November 2009
+         </a>
+         (3)
+        </li>
+        <li>
+         <a href="https://frogatto.com/2009/10/">
+          October 2009
+         </a>
+         (1)
+        </li>
+       </ul>
+      </li>
+      <li id="meta-3" class="widget widget_meta">
+       <h2 class="widgettitle">
+        Admin
+       </h2>
+       <ul>
+        <li>
+         <a href="https://frogatto.com/wp-login.php">
+          Log in
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/feed/">
+          Entries feed
+         </a>
+        </li>
+        <li>
+         <a href="https://frogatto.com/comments/feed/">
+          Comments feed
+         </a>
+        </li>
+        <li>
+         <a href="https://wordpress.org/">
+          WordPress.org
+         </a>
+        </li>
+       </ul>
+      </li>
+     </ul>
+    </div>
+    <div class="clear">
+    </div>
+    <div id="bottom_border">
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+   var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"https://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+   try{var pageTracker=_gat._getTracker("UA-1872754-7");pageTracker._trackPageview();}catch(err){}
+  </script>
+ </body>
+</html>
